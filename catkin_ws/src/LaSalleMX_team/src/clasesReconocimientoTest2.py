@@ -121,7 +121,7 @@ class streetDetection:
 		if area > 6000 and area <13000:
 	#Solo si la figura detectada tiene 8 vertices dispara la senialal de alto
 		    print("Reeeeturrrn")
-            	    return 1
+            	    return 0
 	return 0
 
 #Usamos esta funcion principalmente para debugging de las conecciones entre ros y opencv
